@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+}
+img{
+    width: 80%;
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 5em;
+}
+.items{
+    background-color: white;
+    padding: 2rem 1rem;
+    margin: 3rem;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow:0 15px 18px yellow;
+}
+h2{
+    background-color: limegreen;
+    width: 25%;
+    margin-top: 2em;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px grey;
+    
+}
+#aqua{
+    background-color: white;
+    width: 28%;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+h3{
+  background-color: black;
+  padding: 0  2em;
+  border-radius: 15px;
+  margin: 2em;
+  color: white;
+}
+#logo{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+}
